@@ -24,6 +24,13 @@ int main()
 		return -1;
 	}
 
+	// vertice array :D
+	float vertices[] = {
+		-0.5f, -0.5f, 0.0f,
+		0.5f, -0.5f, 0.0f,
+		0.0f, 0.5f, 0.0f
+	};
+
 	// parallel thread stuff, make the window the current thread context
 	glfwMakeContextCurrent(window);
 
